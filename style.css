@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+
+body {
+  background-color: #3535ec;
+  color: white;
+  font-family: 'Press Start 2p';
+}
+
+.board {
+  display: flex;
+}
+
+.game-area {
+  position: relative;
+  padding: 12px;
+
+}
+
+.cell {
+  height: 120px;
+  width: 120px;
+  background-color: whitesmoke;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+#grid {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.bug {
+  background-image: url('./images/bug.png');
+}
+
+.splat {
+  background-image: url('./images/bug-splat.png');
+}
+
+.game-data {
+  padding: 12px;
+  width: 240px;
+}
+
+p {
+  margin-bottom: 36px;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-top: 28px;
+}
