@@ -1,2 +1,2 @@
-# Wack-a-bug-game
+# Whack-a-bug-game
 
